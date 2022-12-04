@@ -1,0 +1,129 @@
+#whole
+{
+  text-align: center;
+  background-color: transparent;
+}
+
+body
+{
+  margin: 0;
+  color: #f3f3f3;
+  background-color: #192734;
+}
+
+#top-bar
+{
+  padding: 10px;
+  background-color: #192734;
+  margin-bottom: 10px;
+}
+
+h1
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #f3f3f3;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+label
+{
+  font-family: "Verdana", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+input
+{
+  width: 225px;
+  height: 17px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  border: transparent;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+#interest-earned-container, #total-value-container
+{
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 50px;
+  margin: 10px;
+}
+
+#interest-earned, #total-value
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #111;
+}
+
+#interest-earned-container
+{
+  background-color: lightblue;
+}
+
+#total-value-container
+{
+  background-color: lightgreen;
+}
+
+#interest-earned-para, #total-value-para
+{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #111;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#calculate-btn
+{
+  font-family: "Roboto", sans-serif;
+  padding: 10px 30px;
+  background-color: #f3f3f3;
+  color: #111;
+  font-weight: 600;
+  font-size: 20px;
+  border: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+select
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  outline: none;
+  background-color: #f3f3f3;
+  color: #111;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#options
+{
+  text-align: left;
+  background-color: #f3f3f3;
+  color: #111;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media only screen and (max-width: 600px)
+{
+  h1
+  {
+    font-size: 25px;
+  }
+}

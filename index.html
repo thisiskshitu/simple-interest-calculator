@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Interest Calculator Online</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div id="whole">
+    <div id="top-bar"><h1>Simple Interest Calculator</h1></div>
+
+    <label for="principal-amount">Principal Amount</label>
+    <br>
+    <input id="principal-amount" name="principal-amount" type="text">
+
+    <br><br>
+    
+    <label for="rate">Rate(in %)</label>
+    <br>
+    <input id="rate" name="rate" type="text">
+
+    <br><br>
+
+    <label for="period-unit">Period Unit</label>
+    <br>
+    <select name="period-unit" id="period-unit">
+      <option id="options" value="days">Days</option>
+      <option id="options" value="weeks">Weeks</option>
+      <option id="options" value="months">Months</option>
+      <option id="options" value="years">Years</option>
+    </select>
+
+    <br><br>
+
+    <label for="period-value">Period</label>
+    <br>
+    <input id="period-value" name="period-value" type="text">
+
+    <br><br>
+
+    <div id="interest-earned-container">
+      <label id="interest-earned" for="interest-earned">Interest Earned: </label><p id="interest-earned-para">0</p>
+    </div>
+
+    <br>
+
+    <div id="total-value-container">
+    <label id="total-value" for="total-value">Total Value: </label><p id="total-value-para">0</p>
+    </div>
+
+    <br><br>
+
+    <button id="calculate-btn" type="submit" onclick="calculate()">Calculate</button>
+  </div>
+  
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
